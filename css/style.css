@@ -535,17 +535,17 @@ mark,
   .asset1-bottom{
     position: relative;
     float: right;
-    width: 500px;
+    width: 400px;
     right: -100px;
-    bottom: 300px;
+    bottom: 100px;
   }
 
   .asset2-bottom{
     position: relative;
     float: left;
-    width: 500px;
+    width: 1000px;
     left: -100px;
-    bottom: -100px;
+    top: 100px;
   }
 }
 
