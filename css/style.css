@@ -577,9 +577,9 @@ mark,
   .asset2-top{
     position: relative;
     float: right;
-    width: 1000px;
+    width: 500px;
     right: -100px;
-    top: -100px;
+    top: 50px;
   }
 }
 
