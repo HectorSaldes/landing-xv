@@ -29,16 +29,13 @@
         <div class="navbar-nav ml-auto py-0">
             <a href="#home" class="nav-item nav-link active">Inicio</a>
             <a href="#about" class="nav-item nav-link">Sobre mi</a>
-            <a href="#gallery" class="nav-item nav-link">Galeria</a>
         </div>
         <a href="./index.html" class="navbar-brand mx-5 d-none d-lg-block">
             <h1 class="font-secondary text-white mb-n2">Sofia <span class="text-primary">XV</span> Saldaña</h1>
         </a>
         <div class="navbar-nav mr-auto py-0">
+            <a href="#gallery" class="nav-item nav-link">Galeria</a>
             <a href="#event" class="nav-item nav-link">Evento</a>
-            <a href="#family" class="nav-item nav-link">Familia</a>
-            <!--            <a href="#rsvp" class="nav-item nav-link">Asistencia</a>-->
-<!--            <a href="#contact" class="nav-item nav-link">Contacto</a>-->
         </div>
     </div>
 </nav>
@@ -47,79 +44,18 @@
 
 <!-- Carousel Start -->
 <div class="container-fluid p-0 mb-5 pb-5" id="home">
-    <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
-                <img class="position-absolute w-100 h-100" src="./img/home-cover1.jpg" style="object-fit: cover;"
-                     alt="cover">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 900px;">
-                        <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Sofia Saldaña</h1>
-                        <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
-                            <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">
-                                Mis XV Años</h3>
-                        </div>
-                        <button type="button" class="btn-play mx-auto" data-toggle="modal"
-                                data-src="https://www.youtube.com/embed/j3ObHjm1fAE?si=zqLpXEq0N3poidKo"
-                                data-target="#videoModal">
-                            <span></span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
-                <img class="position-absolute w-100 h-100" src="./img/home-cover2.jpg" style="object-fit: cover;"
-                     alt="cover">
-                <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                    <div class="p-3" style="max-width: 900px;">
-                        <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Sofia Saldaña</h1>
-                        <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
-                            <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">
-                                Mis XV Años</h3>
-                        </div>
-                        <button type="button" class="btn-play mx-auto" data-toggle="modal"
-                                data-src="https://www.youtube.com/embed/j3ObHjm1fAE?si=zqLpXEq0N3poidKo"
-                                data-target="#videoModal">
-                            <span></span>
-                        </button>
-                    </div>
-                </div>
+    <div style="height: 100vh; min-height: 400px;">
+        <img src="img/asset1.webp" class="asset1-top" alt=""/>
+        <div class="carousel-caption d-flex align-items-center justify-content-center text-center">
+            <div class="p-3">
+                <h3 class="font-weight-bolder text-xl-center text-white">MIS XV AÑOS</h3>
+                <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Sofia Saldaña</h1>
             </div>
         </div>
-        <a class="carousel-control-prev justify-content-start" href="#header-carousel" data-slide="prev">
-            <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
-                <span class="carousel-control-prev-icon mt-3"></span>
-            </div>
-        </a>
-        <a class="carousel-control-next justify-content-end" href="#header-carousel" data-slide="next">
-            <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
-                <span class="carousel-control-next-icon mt-3"></span>
-            </div>
-        </a>
+        <img src="img/asset2.png"  class="asset2-top"  alt=""/>
     </div>
 </div>
 <!-- Carousel End -->
-
-
-<!-- Video Modal Start -->
-<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-     aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                <!-- 16:9 aspect ratio -->
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always"
-                            allow="autoplay"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Video Modal End -->
 
 
 <!-- About Start -->
@@ -131,51 +67,24 @@
             <i class="far fa-heart text-dark"></i>
         </div>
         <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
-            <div class="col-md-6 p-0 text-center text-md-right">
-                <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
+            <div class="col-md-6 p-0 text-justify">
+                <div class="h-100 d-flex flex-column justify-content-center p-0 p-md-5">
                     <h3 class="mb-3">Sofia</h3>
-                    <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor
-                        rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor
-                        elitr.</p>
-                    <h3 class="font-secondary font-weight-normal text-muted mb-3"><i
-                            class="fa fa-female text-primary pr-3"></i>Sofia</h3>
-                    <div class="position-relative">
-                        <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-primary btn-square mr-1" href="#"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-primary btn-square mr-1" href="#"><i
-                                class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
+                    <p>
+                        En este día tan especial, nos reunimos para celebrar a Sofía, una joven cuya luz y alegría han iluminado nuestras vidas desde el día en que nació. Sofía es un alma vibrante y radiante, conocida por su corazón generoso y su espíritu indomable. A medida que cruza el umbral hacia esta nueva etapa de su vida, refleja la gracia y la belleza que ha cultivado tanto en su interior como en su exterior.
+                    </p>
+
+                    <p>Sofía abraza cada día con pasión y entusiasmo. Su sonrisa contagiosa y su risa fácil han sido un regalo para todos los que tienen el privilegio de conocerla. Con cada paso que da, nos enseña el verdadero significado de la alegría y la importancia de seguir nuestros sueños.</p>
+
+                    <p> A medida que celebramos estos quince años de vida, momentos y memorias, miramos con expectación hacia todo lo que Sofía logrará en el futuro. Gracias por unirse a nosotros para conmemorar este momento trascendental en la vida de una joven excepcional.</p>
+
                 </div>
             </div>
             <div class="col-md-6 p-0" style="min-height: 400px;">
-                <img class="position-absolute w-100 h-100" src="./img/about-me.jpg" style="object-fit: cover;" alt="about">
+                <img class="position-absolute w-100 h-100" src="img/Sofia1.jpeg" style="object-fit: cover;" alt="about">
             </div>
         </div>
-        <div class="row m-0">
-            <div class="col-md-6 p-0" style="min-height: 400px;">
-                <img class="position-absolute w-100 h-100" src="img/about-me.jpg" style="object-fit: cover;" alt="about">
-            </div>
-            <div class="col-md-6 p-0 text-center text-md-left">
-                <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
-                    <h3 class="mb-3">The Bride</h3>
-                    <p>Lorem elitr magna stet rebum dolores sed. Est stet labore est lorem lorem at amet sea, eos tempor
-                        rebum, labore amet ipsum sea lorem, stet rebum eirmod amet. Kasd clita kasd stet amet est dolor
-                        elitr.</p>
-                    <h3 class="font-secondary font-weight-normal text-muted mb-3"><i
-                            class="fa fa-female text-primary pr-3"></i>Rose</h3>
-                    <div class="position-relative">
-                        <a class="btn btn-outline-primary btn-square mr-1" href="#"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-outline-primary btn-square mr-1" href="#"><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-primary btn-square mr-1" href="#"><i
-                                class="fab fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+
     </div>
 </div>
 <!-- About End -->
@@ -189,40 +98,10 @@
     </div>
     <div class="owl-carousel gallery-carousel">
         <div class="gallery-item">
-            <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
-            <a href="img/gallery-1.jpg" data-lightbox="gallery">
-                <i class="fa fa-2x fa-plus text-white"></i>
-            </a>
+            <img class="img-fluid w-100" src="img/Sofia2.jpeg"  alt=""/>
         </div>
         <div class="gallery-item">
-            <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
-            <a href="img/gallery-2.jpg" data-lightbox="gallery">
-                <i class="fa fa-2x fa-plus text-white"></i>
-            </a>
-        </div>
-        <div class="gallery-item">
-            <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="">
-            <a href="img/gallery-3.jpg" data-lightbox="gallery">
-                <i class="fa fa-2x fa-plus text-white"></i>
-            </a>
-        </div>
-        <div class="gallery-item">
-            <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
-            <a href="img/gallery-4.jpg" data-lightbox="gallery">
-                <i class="fa fa-2x fa-plus text-white"></i>
-            </a>
-        </div>
-        <div class="gallery-item">
-            <img class="img-fluid w-100" src="img/gallery-5.jpg" alt="">
-            <a href="img/gallery-5.jpg" data-lightbox="gallery">
-                <i class="fa fa-2x fa-plus text-white"></i>
-            </a>
-        </div>
-        <div class="gallery-item">
-            <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="">
-            <a href="img/gallery-6.jpg" data-lightbox="gallery">
-                <i class="fa fa-2x fa-plus text-white"></i>
-            </a>
+            <img class="img-fluid w-100" src="img/Sofia1.jpeg" alt=""/>
         </div>
     </div>
 </div>
@@ -234,31 +113,20 @@
     <div class="container py-5">
         <div class="section-title position-relative text-center">
             <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Evento</h6>
-            <h1 class="font-secondary display-4">Misa y Fiesta</h1>
+            <h1 class="font-secondary display-4">Salón</h1>
             <i class="far fa-heart text-dark"></i>
         </div>
         <div class="row justify-content-center">
             <div class="col-md-6 text-center">
-                <h5 class="font-weight-normal text-muted mb-3 pb-3">SALÓN SOL Y LUNA TEMIXCO,
-                    Ing. Pedro Salcedo 11, Temixco Centro, C.P.62580, Mor.</h5>
+                <h5 class="font-weight-normal mb-3 pb-3">SALÓN SOL Y LUNA TEMIXCO, ING. PEDRO SALCEDO 11, TEMIXCO CENTRO, C.P.62580, MOR.</h5>
             </div>
         </div>
         <div class="row section-title">
-            <div class="col-md-6 border-right border-primary">
-                <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
-                    <img class="img-fluid mb-4" src="img/capilla.jpg" alt="Capilla del Salón"
-                         style="width: 432px; height: 300px;">
-                    <h4 class="mb-3">Misa</h4>
-                    <p class="mb-2">La ceremonia se llevará a cabo<br>en la Capilla del Salón</p>
-                    <p class="mb-0">6:00 PM - 6:59 PM</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="text-center text-md-left ml-md-3">
-                    <img class="img-fluid mb-4" src="img/Salon1.jpg" alt="Salón" style="width: 432px; height: 300px;">
-                    <h4 class="mb-3">Salón</h4>
-                    <p class="mb-2">La fiesta se llevará a cabo<br>en el Salón Sol y Luna</p>
-                    <p class="mb-0">7:00 PM - 1:00 AM</p>
+            <div class="col">
+                <div class="text-center mr-md-3 mb-4 mb-md-0">
+                    <img class="img-fluid mb-4 mx-auto" src="./img/SALON.jpg" alt="Capilla del Salón"
+                         style="width: auto; height: 400px;">
+                    <h4 class="mb-3">EL 01 DE JUNIO 2024, A LAS 2:00 PM</h4>
                 </div>
             </div>
         </div>
@@ -279,199 +147,18 @@
 <!-- Event End -->
 
 
-<!-- Friends & Family Start -->
-<div class="container-fluid py-5" id="family">
-    <div class="container pt-5 pb-3">
-        <div class="section-title position-relative text-center">
-            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Familia</h6>
-            <h1 class="font-secondary display-4">Conoce a mi familia</h1>
-            <i class="far fa-heart text-dark"></i>
-        </div>
-        <!--<div class="row">
-            <div class="col-12 text-center mb-2">
-                <ul class="list-inline mb-4" id="portfolio-flters">
-                    <li class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" data-filter=".first">Groomsmen
-                    </li>
-                    <li class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" data-filter=".second">
-                        Bridesmaid
-                    </li>
-                </ul>
-            </div>
-        </div>-->
-        <div class="row portfolio-container">
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                <div class="position-relative mb-2">
-                    <img class="img-fluid w-100" src="img/groomsmen-1.jpg" alt="">
-                    <div class="bg-secondary text-center p-4">
-                        <h4 class="mb-3">Full Name</h4>
-                        <p class="text-uppercase">Best Friend</p>
-                        <div class="d-inline-block">
-                            <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                <div class="position-relative mb-2">
-                    <img class="img-fluid w-100" src="img/bridesmaid-1.jpg" alt="">
-                    <div class="bg-secondary text-center p-4">
-                        <h4 class="mb-3">Full Name</h4>
-                        <p class="text-uppercase">Best Friend</p>
-                        <div class="d-inline-block">
-                            <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                <div class="position-relative mb-2">
-                    <img class="img-fluid w-100" src="img/groomsmen-2.jpg" alt="">
-                    <div class="bg-secondary text-center p-4">
-                        <h4 class="mb-3">Full Name</h4>
-                        <p class="text-uppercase">Best Friend</p>
-                        <div class="d-inline-block">
-                            <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                <div class="position-relative mb-2">
-                    <img class="img-fluid w-100" src="img/bridesmaid-2.jpg" alt="">
-                    <div class="bg-secondary text-center p-4">
-                        <h4 class="mb-3">Full Name</h4>
-                        <p class="text-uppercase">Best Friend</p>
-                        <div class="d-inline-block">
-                            <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-                <div class="position-relative mb-2">
-                    <img class="img-fluid w-100" src="img/groomsmen-3.jpg" alt="">
-                    <div class="bg-secondary text-center p-4">
-                        <h4 class="mb-3">Full Name</h4>
-                        <p class="text-uppercase">Best Friend</p>
-                        <div class="d-inline-block">
-                            <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-                <div class="position-relative mb-2">
-                    <img class="img-fluid w-100" src="img/bridesmaid-3.jpg" alt="">
-                    <div class="bg-secondary text-center p-4">
-                        <h4 class="mb-3">Full Name</h4>
-                        <p class="text-uppercase">Best Friend</p>
-                        <div class="d-inline-block">
-                            <a class="mx-2" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="mx-2" href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Friends & Family End -->
-
-
-<!-- RSVP Start -->
-<!--<div class="container-fluid py-5" id="rsvp">
-    <div class="container py-5">
-        <div class="section-title position-relative text-center">
-            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">RSVP</h6>
-            <h1 class="font-secondary display-4">Join Our Party</h1>
-            <i class="far fa-heart text-dark"></i>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="text-center">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-sm-6">
-                                <input type="text" class="form-control bg-secondary border-0 py-4 px-3"
-                                       placeholder="Your Name"/>
-                            </div>
-                            <div class="form-group col-sm-6">
-                                <input type="email" class="form-control bg-secondary border-0 py-4 px-3"
-                                       placeholder="Your Email"/>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-sm-6">
-                                <select class="form-control bg-secondary border-0" style="height: 52px;">
-                                    <option>Number of Guest</option>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                </select>
-                            </div>
-                            <div class="form-group col-sm-6">
-                                <select class="form-control bg-secondary border-0" style="height: 52px;">
-                                    <option>I'm Attending</option>
-                                    <option>All Events</option>
-                                    <option>Wedding Party</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control bg-secondary border-0 py-2 px-3" rows="5"
-                                      placeholder="Message" required="required"></textarea>
-                        </div>
-                        <div>
-                            <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>-->
-<!-- RSVP End -->
-
 
 <!-- Footer Start -->
-<div class="container-fluid bg-dark text-white py-5" id="contact" style="margin-top: 90px;">
+<div class="container-fluid text-white py-5" id="contact" >
+    <img src="img/asset2.png"  class="asset2-bottom"  alt=""/>
     <div class="container text-center py-5">
         <div class="section-title position-relative text-center">
             <h1 class="font-secondary display-3 text-white">¡Gracias, los esperamos!</h1>
             <i class="far fa-heart text-white"></i>
         </div>
-        <!-- <div class="d-flex justify-content-center mb-4">
-             <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-             <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-             <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-             <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
-         </div>
-         <div class="d-flex justify-content-center py-2">
-             <p class="text-white" href="#">info@example.com</p>
-             <span class="px-3">|</span>
-             <p class="text-white" href="#">+012 345 6789</p>
-         </div>-->
-         <p class="m-0">&copy; <a class="text-primary" target="_blank" href="https://hectorsaldes.netlify.app/">HectorSaldes</a>
-         </p>
+<!--         <p class="m-0">&copy; <a class="text-primary" target="_blank" href="https://hectorsaldes.netlify.app/">HectorSaldes</a></p>-->
     </div>
+    <img src="img/asset1.webp" class="asset1-bottom" alt=""/>
 </div>
 <!-- Footer End -->
 
